@@ -1,0 +1,112 @@
+html,
+body {
+    background-color: black;
+    background-image: url('https://wallpapercave.com/wp/wp13061303.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    z-index: -2;
+}
+
+#display {
+    color: white;
+    font-size: 2.9em;
+    top: 10px;
+    border-bottom: thin solid;
+    padding-bottom: 20px;
+    opacity: 0.80;
+}
+
+#date {
+    color: white;
+    font-size: 1.3em;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: normal;
+    letter-spacing: 0.2em;
+    opacity: 0.6;
+}
+
+#content {
+    height: 20em;
+    width: 95%;
+    border: 1px solid #ccc;
+    background-color: #f9f9f934;
+    border-radius: 4px;
+    color: #333;
+    overflow-y: scroll;
+}
+
+p {
+    padding: 1vw 5vw;
+    color: white;
+    font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
+    letter-spacing: 0.1em;
+    text-align: center;
+    margin: 40px auto;
+    text-transform: lowercase;
+    line-height: 145%;
+    font-size: 1.5vw;
+    font-variant: small-caps;
+}
+
+p :hover {
+    text-decoration: none;
+}
+
+.container {
+    padding-top: 6em;
+    text-align: center;
+}
+
+#b-nav {
+    padding-bottom: 2em;
+    /* position: fixed; */
+    width: 100%;
+    bottom: 2em;
+}
+
+#b-nav ul {
+    margin: 0;
+    padding: 0.5em;
+    list-style-type: none;
+    text-align: center;
+}
+
+input[type='number'] {
+    padding: 8px;
+    width: 60px;
+    font-size: 16px;
+}
+
+#gen {
+    outline: none;
+    padding-top: 5px;
+    text-decoration: none;
+    opacity: 0.6;
+    background-color: black;
+    color: white;
+    border: thin solid white;
+    height: 40px;
+    width: 100px;
+    border-radius: 2px;
+    transition: 0.5s;
+    padding-bottom: 5px;
+}
+
+#gen:hover {
+    background-color: white;
+    color: black;
+    border: thin solid black;
+    opacity: 0.8;
+}
+
+
+#date {
+    color: white;
+}
+
+@media screen and (max-device-width: 767px) {
+    p {
+        font-size: 3vw;
+    }
+}
