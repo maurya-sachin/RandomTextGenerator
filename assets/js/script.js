@@ -120,7 +120,7 @@ function generateLoremText(numParagraphs, numWords) {
       let randomWord = words[Math.floor(Math.random() * words.length)];
       paragraph += randomWord + ' ';
     }
-    loremText += '' + paragraph + '';
+    loremText += '<p>' + paragraph + '</p>';
   }
   return loremText;
 }
